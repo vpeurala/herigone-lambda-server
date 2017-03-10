@@ -114,7 +114,7 @@ module.exports.quote = (event, context, callback) => {
     , { number: "99", word: "vauva" }
   ]
 
-  var associationIndex = getRandomInt(0, associations.length - 1)
+  var associationIndex = getRandomInt(0, associations.length)
   var number = associations[associationIndex].number
   var word = associations[associationIndex].word
 
