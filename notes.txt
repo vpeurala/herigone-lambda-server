@@ -1,0 +1,10 @@
+Service Information
+service: herigone-lambda-server
+stage: dev
+region: us-east-1
+api keys:
+  None
+endpoints:
+  POST - https://11j7x1q6f7.execute-api.us-east-1.amazonaws.com/dev/api/quote
+functions:
+  quote: herigone-lambda-server-dev-quote
